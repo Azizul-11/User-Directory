@@ -42,16 +42,19 @@ Follow the steps below to run the project locally:
    git clone https://github.com/Azizul-11/User-Directory.git
    
 2. Navigate to the project directory
-  cd User-Directory
-  
+   ```bash
+   cd User-Directory
 3. Install dependencies
-npm install
+   ```bash
+   npm install
 
 4. Start the development server
-npm run dev
+   ```bash
+   npm run dev
 
 5. Open the application in your browser
-http://localhost:5173
+   ```bash
+    http://localhost:5173
 
 
 🧪 Form Validation Rules
@@ -68,20 +71,7 @@ Company Name: Optional
 
 Website: Optional
 
-📂 Project Structure
 
-User-Directory/
-│
-├── src/
-│   ├── api/
-│   ├── components/
-│   ├── hooks/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── README.md
-└── package.json
 
 🌐 Deployment
 
