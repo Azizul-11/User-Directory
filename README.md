@@ -1,16 +1,96 @@
-# React + Vite
+# User Directory Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive User Directory application built as part of a frontend assignment. The application fetches user data from an external API, displays it in a list, allows real-time searching, viewing user details, and adding new users from the frontend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- React (Vite)
+- JavaScript (ES6+)
+- Tailwind CSS
+- Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetch users from JSONPlaceholder API on initial load
+- Display user list with name, email, and phone number
+- Show loading indicator and error message during API calls
+- Real-time search functionality (filter by name or email)
+- View user details in a modal (address, company name, website)
+- Add new users from frontend with form validation
+- Persist added users using localStorage
+- Alphabetical sorting of users
+- Responsive design for mobile and desktop
+
+---
+
+## 🔗 API Used
+
+- https://jsonplaceholder.typicode.com/users
+
+---
+
+## 🛠️ Setup Instructions
+
+Follow the steps below to run the project locally:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Azizul-11/User-Directory.git
+   
+2. Navigate to the project directory
+  cd User-Directory
+  
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
+
+5. Open the application in your browser
+http://localhost:5173
+
+
+🧪 Form Validation Rules
+
+Name: Required
+
+Email: Required and must be in a valid format
+
+Phone: Required
+
+Address: Optional
+
+Company Name: Optional
+
+Website: Optional
+
+📂 Project Structure
+
+User-Directory/
+│
+├── src/
+│   ├── api/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── README.md
+└── package.json
+
+🌐 Deployment
+
+The application is deployed using Netlify.
+
+Live Demo:
+👉 https://userdirector.netlify.app/
+
+🎥 Demo Video
+
+Loom Walkthrough Video:
+👉 https://www.loom.com/share/c57aaefd64544fd79f724c0aa188e9f9
